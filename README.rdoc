@@ -1,0 +1,23 @@
+== FATTYFITCLUB
+
+Fitness Competition that is team-based.  Teams with highest weight and body-fat
+percentage lost wins.  Weekly weigh-ins are informal (metrics don't count), but
+are required to stimulate participation. 
+
+
+
+* Ruby version: ruby 2.0.0p247
+
+* Classes
+  - Contest
+  - Team
+  - Member
+  - Weigh_in
+
+* Postgres
+
+* Testing
+  - rspec
+  - capybara
+  - selenium-webdriver
+  - database_cleaner
