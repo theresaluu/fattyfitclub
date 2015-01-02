@@ -36,7 +36,8 @@ group :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'selenium-webdriver'
-  gem 'database_cleaner'
+  gem 'database_cleaner', git: 'git@github.com:DatabaseCleaner/database_cleaner.git'
+  gem "factory_girl_rails", "~> 4.0"
 end
 
 # Use ActiveModel has_secure_password
