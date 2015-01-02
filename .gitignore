@@ -23,6 +23,8 @@ capybara-*.html
 **.orig
 rerun.txt
 *.gem
+.DS_Store
+/spec/.DS_Store
 
 config/initializers/secret_token.rb
 
