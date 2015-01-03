@@ -26,7 +26,4 @@ rerun.txt
 .DS_Store
 /spec/.DS_Store
 
-config/initializers/secret_token.rb
-
-Gemfile.lock
 /vendor
