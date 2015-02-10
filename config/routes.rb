@@ -1,4 +1,14 @@
 Fattyfitclub::Application.routes.draw do
+  get "weigh_ins/index"
+  get "weigh_ins/new"
+  get "weigh_ins/update"
+  get "weigh_ins/delete"
+  get "teams/index"
+  get "teams/new"
+  get "teams/update"
+  get "members/index"
+  get "members/show"
+  get "members/update"
   get "contests/index"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
