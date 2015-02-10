@@ -1,4 +1,8 @@
 class Member < ActiveRecord::Base
+  # Associations
+  has_many :weigh_ins, dependent: :destroy
+  has_many :contests, through: :teams
+
   def weight_loss
     self.initial_weight - self.final_weight
   end
